@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useCallback } from 'react';
 import { View, Text, Animated, StyleSheet, Image } from 'react-native';
 
 import DisneyPlusLogoSvg from '../assets/original.png';
-import { Input } from '../components/input';
+import { Input } from '../components/Input';
 import { ButtonCheckin } from '../components/ButtonCheckin';
 import { useNavigate } from 'react-router-native';
 import { Page } from '../components/Page';

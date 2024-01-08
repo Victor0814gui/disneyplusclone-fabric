@@ -13,7 +13,7 @@ import {ButtonCheckin} from "../components/ButtonCheckin";
 import DisneyPlusLogoSvg from "../assets/original.png";
 import DisneyPlusBackgroundImage from "../assets/background-image-disneyplus.jpg";
 import DisneySubsidiaresLogo from "../assets/logos.png";
-import { Toast } from "../components/toast";
+import { Toast } from "../components/Toast";
 import { useNavigate } from "react-router-native";
 import { routesName } from "../routes";
 

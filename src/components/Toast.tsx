@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
     height: 50,
     paddingHorizontal: 21,
     backgroundColor: "#31343e",
-    // backgroundColor: "#31343e",
     borderRadius: 25,
     position: "absolute",
     top: 41,
@@ -31,6 +30,15 @@ const styles = StyleSheet.create({
     zIndex: 1,
     alignItems: "center",
     flexDirection: "row",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: -3,
+      height: 9,
+    },
+    shadowOpacity: 0.50,
+    shadowRadius: 12.35,
+    
+    elevation: 19,
   },
   icon: {
     height: 20,
